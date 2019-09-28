@@ -9,6 +9,7 @@ public class lab5
 public static void main(String[] args)
 
 {
+        double test =0.0;
         String input = new String();
         String output = new String();
 
