@@ -6,29 +6,29 @@ public class lab5
 
 {
 
-public static void main(String[] args)
+  public static void main(String[] args)
 
-{
-        double test =0.0;
-        String input = new String();
-        String output = new String();
+  {
+    double test =0.0;
+    String input = new String();
+    String output = new String();
 
-        input=JOptionPane.showInputDialog("Enter the temperature in degrees F");
+    input=JOptionPane.showInputDialog("Enter the temperature in degrees F");
 
-        double n = Double.parseDouble(input);
-        Temperature ob = new Temperature(n);  //using the default constructor
+    double n = Double.parseDouble(input);
+    Temperature ob = new Temperature(n);  //using the default constructor
 
-        output = String.format("%f F\n%f C\n%f K\n",ob.getFahrenheit(),ob.celsius(),ob.kelvin());
-        JOptionPane.showMessageDialog(null,output);
+    output = String.format("%f F\n%f C\n%f K\n",ob.getFahrenheit(),ob.celsius(),ob.kelvin());
+    JOptionPane.showMessageDialog(null,output);
 
-        input=JOptionPane.showInputDialog("Enter the temperature in degrees F");
-        n = Double.parseDouble(input);
-        ob.setFahrenheit(n);  //using the set method
+    input=JOptionPane.showInputDialog("Enter the temperature in degrees F");
+    n = Double.parseDouble(input);
+    ob.setFahrenheit(n);  //using the set method
 
-        output = String.format("%f F\n%f C\n%f K\n",ob.getFahrenheit(),ob.celsius(),ob.kelvin());
+    output = String.format("%f F\n%f C\n%f K\n",ob.getFahrenheit(),ob.celsius(),ob.kelvin());
 
-        JOptionPane.showMessageDialog(null,output);
+    JOptionPane.showMessageDialog(null,output);
 
-}
+  }
 
 }
