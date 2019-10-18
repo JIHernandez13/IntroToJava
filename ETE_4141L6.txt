@@ -1,0 +1,34 @@
+﻿ETE 4141                                Laboratory #6
+
+
+Objective:        To give students some experience in writing Classes and using properties of inheritance Super and Sub Classes.
+
+
+Problem:        Design a class called Employee. The Class should keep the following information in 
+                fields:
+
+
+* Employee name
+* Employee number in the format XXX-L, where X is a number within range 0-9 and the L is a letter within the range A-M.
+* Hire date
+
+
+Write appropriate constructor and appropriate accessor methods for the Class.
+
+
+Next, write a class named ProductionWorker that extends the Employee class. The ProductionWorker class should have the fields to hold the following information:
+
+
+* Shift (an interger)
+* Hourly pay rate (a double)
+
+
+The work day is divided into two shifts: day and night. The shift field has an integer value representing the shift that employee works. The day shift is shift 1 and night shift is shift 2. Write appropriate constructor and methods for the class.
+
+
+Use Dialog Boxes for input and output. Data should be inputted using both constructor and input Methods. The output display Box should include all the necessary ProductionWorker’s information including shift number, Hourly pay rate, and 
+ Salary/week. 
+
+
+Result:                Demonstrate the Classes by writing a program that uses multiple ProductionWorker 
+                Objects.
