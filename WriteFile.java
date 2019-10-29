@@ -31,6 +31,8 @@ public class WriteFile
     }
     // Close the file.
     outputFile.close();
+    fil.close();
+    keyboard.close();
     System.out.println("Data written to the file.");
   }
 }

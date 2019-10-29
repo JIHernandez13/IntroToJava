@@ -20,12 +20,9 @@
 *
 *
 */
-import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 class BinarytoDecimal {
-	private int dec;
-
 	//size of int is 4bytes in java
 	//will write according to that assumption
 	void convert(int bin){
